@@ -1,0 +1,71 @@
+[
+    {
+        "id":0,
+        "cafeName": "Cult Espresso",
+        "address": "104 Buccleuch St",
+        "roaster": false,
+        "brewMethods": {
+            "1": "Espresso",
+            "2": "Pour Over"
+        },
+        "food": "Pastries and cakes. Some soups and sandwiches too",
+        "location": {
+            "latitude": "55.941540",
+            "longitude": "-3.183640"
+        }
+    },
+    {
+        "id":1,
+        "cafeName": "Lowdown",
+        "address": "40 George St",
+        "roaster": false,
+        "brewMethods": {
+            "1": "Espresso",
+            "2": "Pour Over"
+        },
+        "food": "Pastries and cakes. Some soups and sandwiches too",
+        "location": {
+            "latitude": "55.953274",
+            "longitude": "-3.197927"
+        }
+
+    },  {
+        "id":2,
+        "cafeName": "Fortitude Coffee",
+        "address": "3c York Pl",
+        "roaster": true,
+        "brewMethods": {
+            "1": "Espresso",
+            "2": "Pour Over"
+        },
+        "food": "Pastries and cakes. Bread and avo",
+        "location": {
+            "latitude": "55.955777",
+            "longitude": "-3.192477"
+        }
+
+    },  {
+        "id":3,
+        "cafeName": "Williams & Johnson Coffee Co",
+        "address": "3 Waverley Bridge",
+        "roaster": true,
+        "food": "",
+        "location": {
+            "latitude": "55.953012",
+            "longitude": "-3.190345"
+        }
+
+    },  {
+        "id":2,
+        "cafeName": "Lowdown",
+        "address": "40 George St",
+        "roaster": false,
+        "food": true,
+        "location": {
+            "latitude": "55.955777",
+            "longitude": "-3.192477"
+        }
+
+    }
+   
+]
