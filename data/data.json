@@ -21,14 +21,13 @@
         "roaster": false,
         "brewMethods": {
             "1": "Espresso",
-            "2": "Pour Over"
+            "2": "Aeropress"
         },
         "food": "Pastries and cakes. Some soups and sandwiches too",
         "location": {
             "latitude": "55.953274",
             "longitude": "-3.197927"
         }
-
     },  {
         "id":2,
         "cafeName": "Fortitude Coffee",
@@ -43,27 +42,47 @@
             "latitude": "55.955777",
             "longitude": "-3.192477"
         }
-
     },  {
         "id":3,
         "cafeName": "Williams & Johnson Coffee Co",
         "address": "3 Waverley Bridge",
         "roaster": true,
-        "food": "",
+        "brewMethods": {
+            "1": "Espresso",
+            "2": "Pour Over"
+        },
+        "food": "Pastries and toasties",
         "location": {
             "latitude": "55.953012",
             "longitude": "-3.190345"
         }
-
-    },  {
-        "id":2,
-        "cafeName": "Lowdown",
-        "address": "40 George St",
-        "roaster": false,
-        "food": true,
+    },   {
+        "id":4,
+        "cafeName": "Williams & Johnson Coffee Co",
+        "address": "CUSTOM LANE, 1 Customs Wharf",
+        "roaster": true,
+        "brewMethods": {
+            "1": "Espresso",
+            "2": "Pour Over"
+        },
+        "food": "Pastries, toasties and soups",
         "location": {
-            "latitude": "55.955777",
-            "longitude": "-3.192477"
+            "latitude": "55.976762",
+            "longitude": "-3.170443"
+        }
+    },  {
+        "id":5,
+        "cafeName": "Artisan Roast Bruntsfield",
+        "address": "138 Bruntsfield Pl",
+        "roaster": true,
+        "brewMethods": {
+            "1": "Espresso",
+            "2": "Pour Over"
+        },
+        "food": "",
+        "location": {
+            "latitude": "55.936658",
+            "longitude": "-3.208050"
         }
 
     }
