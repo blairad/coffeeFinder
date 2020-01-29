@@ -4,14 +4,54 @@
         "cafeName": "Cult Espresso",
         "address": "104 Buccleuch St",
         "roaster": false,
-        "brewMethods": {
-            "1": "Espresso",
-            "2": "Pour Over"
+        "drinks": {
+            "coffee":{
+                "espresso": [
+                    "Espresso",
+                    "Short Black",
+                    "Long Black",
+                    "Americano",
+                    "Piccolo",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino",
+                    "Mocha"
+                ],
+                "filter": "Kalita Wave pour-over"    
+            }, 
+            "teas": "Selection of teas",
+            "alternativeMilk": [
+                "Oat",
+                "Soy"
+            ],
+            "otherDrinks": [
+                "Soft drinks",
+                "Hot Chocolate",
+                "Milkshakes",
+                "Smoothies"
+            ]
         },
-        "food": "Pastries and cakes. Some soups and sandwiches too",
+        "food": "Breakfast, Lunch, Brunch",
+        "specialDiets": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
         "location": {
             "latitude": "55.941540",
             "longitude": "-3.183640"
+        },
+        "website": "http://www.cult-espresso.com/",
+        "retail": {
+            "merch": [
+                "t-shirts",
+                "tote bags"
+            ],
+            "coffee": [
+                "Beans", 
+                "Kalita Wave Stainless Steel Dripper",
+                "Kalita Wave filters",
+                "Aeropress",
+                "Aeropress filters",
+                "keep cups",
+                "hand grinders"
+            ]
         }
     },
     {
@@ -19,70 +59,251 @@
         "cafeName": "Lowdown",
         "address": "40 George St",
         "roaster": false,
-        "brewMethods": {
-            "1": "Espresso",
-            "2": "Aeropress"
+        "drinks": {
+            "coffee":{
+                "espresso": [
+                    "Espresso",
+                    "Long Black",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino"
+                ],
+                "filter": [
+                    "Kalita Wave pour-over",
+                    "Aeropress"
+                ]    
+            }, 
+            "teas": "Selection of teas",
+            "alternativeMilk": [
+                "Oat"
+            ],
+            "otherDrinks": [
+            "Soft drinks",
+            "Hot Chocolate",
+            "Chia Latte",
+            "Alcohol"
+        ]
         },
-        "food": "Pastries and cakes. Some soups and sandwiches too",
+        "food": "Breakfast, Lunch, Brunch",
+        "specialDiets": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
         "location": {
             "latitude": "55.953274",
             "longitude": "-3.197927"
+        },  
+        "retail": {
+            "coffee": [
+                "Beans" 
+            ]
         }
-    },  {
+    },  
+    {
         "id":2,
         "cafeName": "Fortitude Coffee",
         "address": "3c York Pl",
         "roaster": true,
-        "brewMethods": {
-            "1": "Espresso",
-            "2": "Pour Over"
+        "drinks": {
+            "coffee":{
+                "espresso": [
+                    "Espresso",
+                    "Long Black",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino"
+                ],
+                "filter": [
+                    "Kalita Wave pour-over"
+                ]    
+            }, 
+            "teas": "Selection of teas",
+            "alternativeMilks": [
+                "Oat"
+            ],
+            "other": [
+            "Soft drinks",
+            "Hot Chocolate",
+            "Chia Latte",
+            "Alcohol"
+        ]
         },
-        "food": "Pastries and cakes. Bread and avo",
+        "food": "Breakfast, Lunch, Brunch",
+        "specialDiets": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
         "location": {
             "latitude": "55.955777",
             "longitude": "-3.192477"
+        },
+        "website": "https://www.fortitudecoffee.com/",
+        "retail": {
+            "merch": [
+                "t-shirts",
+                "tote bags"
+            ],
+            "coffee": [
+                "Beans", 
+                "Kalita Wave Stainless Steel Dripper",
+                "Kalita Wave filters",
+                "Aeropress",
+                "Aeropress filters",
+                "keep cups",
+                "hand grinders"
+            ]
         }
+
     },  {
         "id":3,
         "cafeName": "Williams & Johnson Coffee Co",
         "address": "3 Waverley Bridge",
         "roaster": true,
-        "brewMethods": {
-            "1": "Espresso",
-            "2": "Pour Over"
+        "drinks": {
+            "coffee":{
+                "espresso": [
+                    "Espresso",
+                    "Long Black",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino"
+                ],
+                "filter": [
+                    "Kalita",
+                    "Aeropress"
+                ]    
+            }, 
+            "teas": "Selection of teas",
+            "alternativeMilks": [
+                "Oat"
+            ],
+            "otherDrinks": [
+                "softDrinks",
+                "Hot Chocolate",
+                "Chia Latte",
+                "Alcohol"
+            ]
         },
-        "food": "Pastries and toasties",
+        "food": "Breakfast, Lunch, Brunch",
+        "Special Diets": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
         "location": {
             "latitude": "55.953012",
             "longitude": "-3.190345"
+        },  "website": "http://www.cult-espresso.com/",
+        "retail": {
+            "merch": [
+                "t-shirts",
+                "tote bags"
+            ],
+            "coffee": [
+                "Beans", 
+                "Kalita Wave Stainless Steel Dripper",
+                "Kalita Wave filters",
+                "Aeropress",
+                "Aeropress filters",
+                "keep cups",
+                "hand grinders"
+            ]
         }
-    },   {
+    },   
+    {
         "id":4,
         "cafeName": "Williams & Johnson Coffee Co",
         "address": "CUSTOM LANE, 1 Customs Wharf",
         "roaster": true,
-        "brewMethods": {
-            "1": "Espresso",
-            "2": "Pour Over"
+        "drinks": {
+            "coffee":{
+                "Espresso": [
+                    "Espresso",
+                    "Long Black",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino"
+                ],
+                "Filter": [
+                    "Kalita",
+                    "Aeropress"
+                ]    
+            }, 
+            "teas": "Selection of teas",
+            "Alternative Milks": [
+                "Oat"
+            ],
+            "otherDrinks": [
+                "softDrinks",
+                "Hot Chocolate",
+                "Chia Latte",
+                "Alcohol"
+            ]
         },
-        "food": "Pastries, toasties and soups",
+        "food": "Breakfast, Lunch, Brunch",
+        "Special Diets": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
         "location": {
             "latitude": "55.976762",
             "longitude": "-3.170443"
+        },  
+        "website": "http://www.cult-espresso.com/",
+        "retail": {
+            "merch": [
+                "t-shirts",
+                "tote bags"
+            ],
+            "coffee": [
+                "Beans", 
+                "Kalita Wave Stainless Steel Dripper",
+                "Kalita Wave filters",
+                "Aeropress",
+                "Aeropress filters",
+                "keep cups",
+                "hand grinders"
+            ]
         }
-    },  {
+    },  
+    {
         "id":5,
         "cafeName": "Artisan Roast Bruntsfield",
         "address": "138 Bruntsfield Pl",
         "roaster": true,
-        "brewMethods": {
-            "1": "Espresso",
-            "2": "Pour Over"
+        "drinks": {
+            "coffee":{
+                "Espresso": [
+                    "Espresso",
+                    "Long Black",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino"
+                ],
+                "Filter": [
+                    "Kalita",
+                    "Aeropress"
+                ]    
+            }, 
+            "teas": "Selection of teas",
+            "Alternative Milks": [
+                "Oat"
+            ],
+            "otherDrinks": [
+                "softDrinks",
+                "Hot Chocolate",
+                "Chia Latte",
+                "Alcohol"
+            ]
         },
-        "food": "",
+        "food": "Breakfast, Lunch, Brunch",
+        "Special Diets": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
         "location": {
             "latitude": "55.936658",
             "longitude": "-3.208050"
+        },
+        "website": "http://www.cult-espresso.com/",
+        "retail": {
+            "merch": [
+                "t-shirts",
+                "tote bags"
+            ],
+            "coffee": [
+                "Beans", 
+                "Kalita Wave Stainless Steel Dripper",
+                "Kalita Wave filters",
+                "Aeropress",
+                "Aeropress filters",
+                "keep cups",
+                "hand grinders"
+            ]
         }
 
     }
