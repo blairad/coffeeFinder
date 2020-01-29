@@ -41,15 +41,15 @@
         "retail": {
             "merch": [
                 "t-shirts",
-                "tote bags"
+                "tote bags",
+                "keep cups"
             ],
             "coffee": [
                 "Beans", 
-                "Kalita Wave Stainless Steel Dripper",
+                "Kalita Wave Dripper",
                 "Kalita Wave filters",
                 "Aeropress",
                 "Aeropress filters",
-                "keep cups",
                 "hand grinders"
             ]
         }
@@ -112,6 +112,9 @@
                 ],
                 "filter": [
                     "Kalita Wave pour-over"
+                ],
+                "coldBrew": [
+                    "bottled"
                 ]    
             }, 
             "teas": "Selection of teas",
@@ -134,16 +137,18 @@
         "website": "https://www.fortitudecoffee.com/",
         "retail": {
             "merch": [
-                "t-shirts",
-                "tote bags"
+                "gift cards",
+                "tote bags",
+                "posters",
+                "keep cups"
             ],
             "coffee": [
                 "Beans", 
-                "Kalita Wave Stainless Steel Dripper",
+                "Coffee Substriptions",
+                "Kalita Wave Dripper",
                 "Kalita Wave filters",
                 "Aeropress",
                 "Aeropress filters",
-                "keep cups",
                 "hand grinders"
             ]
         }
@@ -183,20 +188,19 @@
         "location": {
             "latitude": "55.953012",
             "longitude": "-3.190345"
-        },  "website": "http://www.cult-espresso.com/",
+        },  "website": "https://www.williamsandjohnson.com/",
         "retail": {
             "merch": [
-                "t-shirts",
                 "tote bags"
             ],
             "coffee": [
                 "Beans", 
-                "Kalita Wave Stainless Steel Dripper",
-                "Kalita Wave filters",
+                "Coffee Substriptions",
+                "V60 Dripper",
+                "V60 filters",
                 "Aeropress",
                 "Aeropress filters",
-                "keep cups",
-                "hand grinders"
+                "keep cups"
             ]
         }
     },   
@@ -236,20 +240,19 @@
             "latitude": "55.976762",
             "longitude": "-3.170443"
         },  
-        "website": "http://www.cult-espresso.com/",
+        "website": "https://www.williamsandjohnson.com/",
         "retail": {
             "merch": [
-                "t-shirts",
                 "tote bags"
             ],
             "coffee": [
                 "Beans", 
-                "Kalita Wave Stainless Steel Dripper",
-                "Kalita Wave filters",
+                "Coffee Substriptions",
+                "V60 Dripper",
+                "V60 filters",
                 "Aeropress",
                 "Aeropress filters",
-                "keep cups",
-                "hand grinders"
+                "keep cups"
             ]
         }
     },  
@@ -277,10 +280,8 @@
                 "Oat"
             ],
             "otherDrinks": [
-                "softDrinks",
-                "Hot Chocolate",
-                "Chia Latte",
-                "Alcohol"
+                "Soft Drinks",
+                "Hot Chocolate"
             ]
         },
         "food": "Breakfast, Lunch, Brunch",
@@ -289,23 +290,230 @@
             "latitude": "55.936658",
             "longitude": "-3.208050"
         },
-        "website": "http://www.cult-espresso.com/",
+        "website": "https://www.artisanroast.co.uk/bruntsfield-cafe/",
         "retail": {
             "merch": [
-                "t-shirts",
-                "tote bags"
+                "shopper bags",
+                "gift cards",
+                "panda ceramic cups",
+                "coffee charts poster"
             ],
             "coffee": [
                 "Beans", 
-                "Kalita Wave Stainless Steel Dripper",
-                "Kalita Wave filters",
+                "Coffee Substriptions",
+                "Hario V60 Ceramic",
+                "V60 filters",
                 "Aeropress",
                 "Aeropress filters",
                 "keep cups",
-                "hand grinders"
+                "Chemex 3cup",
+                "Chemex 6cup",
+                "Hario Buono Kettle",
+                "Hario mini slim"
+            ],
+            "classes": [
+                "filter brewing class",
+                "espresso class",
+                "latte art class",
+                "bespoke session"
             ]
         }
 
+    },
+    {
+        "id":6,
+        "cafeName": "Artisan Roast Stockbridge",
+        "address": "100A Raeburn Place",
+        "roaster": true,
+        "drinks": {
+            "coffee":{
+                "Espresso": [
+                    "Espresso",
+                    "Long Black",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino",
+                    "Mocha"
+                ],
+                "Filter": [
+                    "Kalita",
+                    "Aeropress"
+                ]    
+            }, 
+            "teas": "Selection of teas",
+            "Alternative Milks": [
+                "Oat"
+            ],
+            "otherDrinks": [
+                "Soft Drinks",
+                "Hot Chocolate"
+            ]
+        },
+        "food": "Breakfast, Lunch, Brunch",
+        "Special Diets": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
+        "location": {
+            "latitude": "55.959289",
+            "longitude": "-3.213759"
+        },
+        "website": "https://www.artisanroast.co.uk/stockbridge-cafe/",
+        "retail": {
+            "merch": [
+                "shopper bags",
+                "gift cards",
+                "panda ceramic cups",
+                "coffee charts poster"
+            ],
+            "coffee": [
+                "Beans", 
+                "Coffee Substriptions",
+                "Hario V60 Ceramic",
+                "V60 filters",
+                "Aeropress",
+                "Aeropress filters",
+                "keep cups",
+                "Chemex 3cup",
+                "Chemex 6cup",
+                "Hario Buono Kettle",
+                "Hario mini slim"
+            ],
+            "classes": [
+                "filter brewing class",
+                "espresso class",
+                "latte art class",
+                "bespoke session"
+            ]
+        }
+
+    },{
+        "id":7,
+        "cafeName": "Artisan Roast Broughton",
+        "address": "100A Raeburn Place",
+        "roaster": true,
+        "drinks": {
+            "coffee":{
+                "Espresso": [
+                    "Espresso",
+                    "Long Black",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino",
+                    "Iced Latte",
+                    "Iced Black"
+                ],
+                "Filter": [
+                    "V60 Drip",
+                    "Aeropress",
+                    "Chemex"
+                ]    
+            }, 
+            "teas": "Selection of teas",
+            "Alternative Milks": [
+                "Oat"
+            ],
+            "otherDrinks": [
+                "Soft Drinks",
+                "Hot Chocolate",
+                "Chia Latte Tea" 
+            ]
+        },
+        "food": "Breakfast, Lunch, Brunch",
+        "Special Diets": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
+        "location": {
+            "latitude": "55.957920",
+            "longitude": "-3.188888"
+        },
+        "website": "https://www.artisanroast.co.uk/broughton-cafe/",
+        "retail": {
+            "merch": [
+                "shopper bags",
+                "gift cards",
+                "panda ceramic cups",
+                "coffee charts poster"
+            ],
+            "coffee": [
+                "Beans", 
+                "Coffee Substriptions",
+                "Hario V60 Ceramic",
+                "V60 filters",
+                "Aeropress",
+                "Aeropress filters",
+                "keep cups",
+                "Chemex 3cup",
+                "Chemex 6cup",
+                "Hario Buono Kettle",
+                "Hario mini slim"
+            ],
+            "classes": [
+                "filter brewing class",
+                "espresso class",
+                "latte art class",
+                "bespoke session"
+            ]
+        }
+
+    },
+    {
+        "id":8,
+        "cafeName": "Machina",
+        "address": "2 Brougham Place",
+        "roaster": true,
+        "drinks": {
+            "coffee":{
+                "espresso": [
+                    "Espresso",
+                    "Machiato",
+                    "Long Black",
+                    "Piccolo",
+                    "Flat White",
+                    "Latte",
+                    "Cappuchino",
+                    "Mocha"
+                ],
+                "filter": "Chemex"    
+            }, 
+            "teas": "Selection of teas",
+            "alternativeMilk": [
+                "Oat",
+                "Soy"
+            ],
+            "otherDrinks": [
+                "Soft drinks",
+                "Hot Chocolate",
+                "Milkshakes",
+                "Smoothies"
+            ]
+        },
+        "food": "Breakfast, Lunch, Brunch",
+        "specialDiets": "Vegetarian Friendly, Vegan Options",
+        "location": {
+            "latitude": "55.942689",
+            "longitude": "-3.201077"
+        },
+        "website": "https://machina-coffee.co.uk/pages/cafe",
+        "retail": {
+            "merch": [
+                "t-shirts",
+                "tote bags",
+                "keep cups"
+            ],
+            "coffee": [
+                "Beans", 
+                "Coffee Substriptions",
+                "V60 Dripper",
+                "V60 filters",
+                "Aeropress",
+                "Aeropress filters",
+                "hand grinders",
+                "Chemex 3cup",
+                "Chemex 6cup"
+            ],
+            "classes": [
+                "basic barista training",
+                "brew methods training",
+                "latte art class",
+                "advance barista training"
+            ]
+        }
     }
    
 ]
