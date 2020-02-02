@@ -1,35 +1,41 @@
-*{
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     display: grid;
     /* border: 1px black solid; */
 }
-.header{
-    grid-area: T;
-    justify-self: center;
-}
-#option{
-    grid-area: O;
-    justify-self: center;
-}
-.contianer{
-    display: grid;
-    border: 1px red solid;
-    grid-template-columns: 25%,25%,25%,25%;
-    grid-template-rows: 25%,25%,25%,25%;
-    grid-template-areas:
-        ". T T ."
-        ". O O."
-        ". S S ."
-        ". S S .";
-    align-items: center;
 
-}
-.coffee-shop-container{
-    grid-area: S;
+.contianer {
     display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
+    width: 97vw; 
+    height: 97vh; /* these measurements used to stop scrolling rather than 100*/
+}
+
+.head-option {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    justify-self: center;
+}
+
+.head-option header {
     align-items: center;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    border: 1px black solid;
+}
+
+.head-option #option {
+    justify-self: center;
+}
+
+.main-content coffee-shop-container {
+    display: grid;
+    grid-row-start: 2;
+    grid-column-end: span 2;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
