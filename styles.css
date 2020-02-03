@@ -30,12 +30,16 @@
     justify-self: center;
 }
 
-.main-content coffee-shop-container {
+.main-content  {
     display: grid;
     grid-row-start: 2;
-    grid-column-end: span 2;
     justify-content: space-evenly;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
+}
+.main-content coffee-shop-container{
+    grid-row-start: 2;
+    grid-column-end: span 2;
+    grid-gap: 5px;
 }
