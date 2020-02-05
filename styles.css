@@ -34,6 +34,10 @@ body {
 }
 .coffee_shop__details {
   background: linear-gradient(to bottom right, #652600, #7d675a);
+  align-items: center;
+  padding: 0 3rem;
+  display: grid;
+  margin-right: auto;
 }
 
 .cards-container {
