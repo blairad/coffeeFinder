@@ -1,44 +1,43 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: grid;
-    /* border: 1px black solid; */
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
 }
 body {
-    padding: 5px;
-    background: linear-gradient(to bottom right,#652600,#7D675A);
+  padding: 5px;
+  background: burlywood;
 }
 
 .contianer {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-gap:2px;
-    width: 97vw; 
-    height: 97vh; /* these measurements used to stop scrolling rather than 100*/
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-gap: 2px;
+  width: 97vw;
+  height: 97vh; /* these measurements used to stop scrolling rather than 100*/
 }
 .head-option {
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: span 2;
-    justify-self: center;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  justify-self: center;
 }
 #option {
-    justify-self: center;
+  justify-self: center;
 }
-.main-content  {
-    margin: 0 auto;
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    width:45%;
-   
+.shop-content {
+  background-color: gainsboro;
+  box-shadow: darkgrey;
+  margin: 5rem;
+  grid-column-start: 1;
+  grid-column-end: span 2;
 }
-/* .coffee-shop-container{
-    grid-row-start: 2;
-    grid-column-end: span 2;
-    grid-gap: 5px;
-    /* width: 35vw; 
-  
-} */
+.coffee_shop__details {
+  background: linear-gradient(to bottom right, #652600, #7d675a);
+}
+
+.cards-container {
+  position: absolute;
+  margin-top: 10rem;
+  margin-right: auto;
+}
