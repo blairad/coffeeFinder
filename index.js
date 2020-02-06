@@ -8,10 +8,12 @@ const replaceTemplate = (template, cafe) => {
     output = output.replace(/{%ADDRESS%}/g, cafe.address);
     output = output.replace(/{%WEBSITE%}/g, cafe.website);
     
-
-    if (cafe.roaster === true)
-        output = output.replace(/{%ROASTER%}/g, cafe.roaster);
-    return output;
+    if (cafe.roaster){
+        output = output.replace(/{%ROASTER%}/g, 'Roaster' );
+        return output;
+    } else {
+        return output = output.replace(/{%NOT_ROASTER%}/g, 'not-roaster' );;
+    }
 }
 
 

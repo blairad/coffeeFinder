@@ -32,12 +32,32 @@ body {
   grid-column-start: 1;
   grid-column-end: span 2;
 }
-.coffee_shop__details {
+.coffee_shop_details {
+  display: grid;
   background: linear-gradient(to bottom right, #652600, #7d675a);
   align-items: center;
   padding: 0 3rem;
-  display: grid;
   margin-right: auto;
+}
+.card_detail-box {
+    display: grid;
+    justify-items: center;
+    border: 1px solid coral; 
+}
+.card-detail{
+    padding: 2px;
+}
+.card_detail-address{
+    background: linear-gradient(to bottom right, #FFBDAB, #D9846D);
+    background-clip: text;
+}
+.card-detail-roaster{
+    background: linear-gradient(to bottom right, #FFBDAB, #D9846D);
+    background-clip: text;
+}
+.card_detail-website{
+    background: linear-gradient(to bottom right, #FFBDAB, #D9846D);
+    background-clip: text;
 }
 
 .cards-container {
