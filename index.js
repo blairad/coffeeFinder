@@ -11,19 +11,19 @@ const replaceTemplate = (template, cafe) => {
     // if (!cafe.roaster)
     //     output = output.replace(/{%NOT_ROASTER%}/g, 'not-roaster');
     // return output;
-    
-    if (cafe.roaster){
-        output = output.replace(/{%ROASTER%}/g, 'Roaster' );
+
+    if (cafe.roaster) {
+        output = output.replace(/{%ROASTER%}/g, 'Roaster');
         return output;
     } else {
-        return output = output.replace(/{%NOT_ROASTER%}/g, 'not-roaster' );;
+        return output = output.replace(/{%NOT_ROASTER%}/g, 'not-roaster');;
     }
 }
 
 
 const templateOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`, 'utf-8');
 const templateCard = fs.readFileSync(`${__dirname}/templates/cafe-template-card.html`, 'utf-8');
-const templateCafe = fs.readFileSync(`%{__dirname}/templates/template-cafe.html`, 'uts-8')
+//const templateCafe = fs.readFileSync(`%{__dirname}/templates/template-cafe.html`, 'uts-8')
 
 const data = fs.readFileSync(`${__dirname}/data/data.json`, "utf-8")
 const dataObject = JSON.parse(data);

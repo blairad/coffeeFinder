@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+  }
+  body {
+    padding: 5px;
+    background: burlywood;
+  }
+  
+  .contianer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-gap: 2px;
+    width: 97vw;
+    height: 97vh; /* these measurements used to stop scrolling rather than 100*/
+  }
+  .head-option {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    justify-self: center;
+  }
+  #option {
+    justify-self: center;
+  }
+  .shop_content {
+    background-color: gainsboro;
+    box-shadow: darkgrey;
+    margin: 5rem;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+  .card__details{
+    display: grid;
+  }
+  .card_detail-box {
+    display: grid;
+    justify-items: center;
+    border: 1px solid coral; 
+  }
+  .coffee_shop_details {
+    display: grid;
+    background: linear-gradient(to bottom right, #652600, #7d675a);
+    align-items: center;
+    padding: 0 3rem;
+    margin-right: auto;
+  }
+  
+  .card-detail{
+      padding: 2px;
+  }
+  .card_detail-address{
+      background: linear-gradient(to bottom right, #FFBDAB, #D9846D);
+      background-clip: text;
+  }
+  .card-detail-roaster{
+      background: linear-gradient(to bottom right, #FFBDAB, #D9846D);
+      background-clip: text;
+  }
+  .card_detail-website{
+      background: linear-gradient(to bottom right, #FFBDAB, #D9846D);
+      background-clip: text;
+  }
+  .cards-container {
+    position: absolute;
+    margin-top: 10rem;
+    margin-right: auto;
+  }
+  
+  
+  /* cafe-overview */
+  
+  .container_cafes {
+    width: 95rem;
+    margin: 0 auto;
+  }
+  .cafe {
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    background: white;
+    box-shadow: 0 3rem 6rem 1rem rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  .cafe__roaster {
+      position: absolute;
+      top: -4rem;
+      right: -4rem;
+      z-index: 1000;
+      height: 11rem;
+      width: 11rem;
+      background-image: linear-gradient(to bottom, #9be15d, #00e3ae);
+      border-radius: 50%;
+      transform: rotate(15deg);
+      box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .cafe__roaster h5 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: white;
+  }
+  .cafe__hero {
+    position: relative;
+    height: 22rem;
+    overflow: hidden;
+  }
