@@ -59,7 +59,6 @@ body {
     background: linear-gradient(to bottom right, #FFBDAB, #D9846D);
     background-clip: text;
 }
-
 .cards-container {
   position: absolute;
   margin-top: 10rem;
