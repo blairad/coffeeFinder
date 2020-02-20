@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+}
+
+body{
+    padding: 5px;
+    background: burlywood;
+}
+
+.container_cafes {
+    width: 95rem;
+    margin: 0 auto;
+}
+.card__details {
+    /* needs changing */
+    background: white;
+    box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 5rem;
+    transform: skewX(-20deg);
+    display: grid;
+    transition: all 0.5s;
+    border: #00e3ae 1px solid;
+
+  }
+
+.cafe {
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    background: white;
+    box-shadow: 0 3rem 6rem 1rem rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.cafe__roaster {
+    position: absolute;
+    top: -4rem;
+    right: -4rem;
+    z-index: 1000;
+    height: 11rem;
+    width: 11rem;
+    background-image: linear-gradient(to bottom, #9be15d, #00e3ae);
+    border-radius: 50%;
+    transform: rotate(15deg);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cafe__roaster h5 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.cafe__hero {
+    position: relative;
+    height: 22rem;
+    overflow: hidden;
+}

@@ -7,6 +7,8 @@ const replaceTemplate = (template, cafe) => {
     let output = template.replace(/{%NAME%}/g, cafe.cafeName);
     output = output.replace(/{%ADDRESS%}/g, cafe.address);
     output = output.replace(/{%WEBSITE%}/g, cafe.website);
+    output = output.replace(/{%ID%}/g, cafe.id);
+
 
     // if (!cafe.roaster)
     //     output = output.replace(/{%NOT_ROASTER%}/g, 'not-roaster');
@@ -23,11 +25,11 @@ const replaceTemplate = (template, cafe) => {
 
 const templateOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`, 'utf-8');
 const templateCard = fs.readFileSync(`${__dirname}/templates/cafe-template-card.html`, 'utf-8');
-//const templateCafe = fs.readFileSync(`%{__dirname}/templates/template-cafe.html`, 'uts-8')
+// const templateCafe = fs.readFileSync(`${__dirname}/templates/template-cafe.html`, 'utf-8')
 
 const data = fs.readFileSync(`${__dirname}/data/data.json`, "utf-8")
 const dataObject = JSON.parse(data);
-// console.log(data)
+// console.log(dataObject)
 
 
 const server = http.createServer((req, res) => {
@@ -40,6 +42,7 @@ const server = http.createServer((req, res) => {
 
         const cardsHtml = dataObject.map(element => replaceTemplate(templateCard, element)).join('');
         const output = templateOverview.replace('{%COFFEE_CARDS%}', cardsHtml)
+        // console.log("tempcard", templateCard)
         res.end(output);
 
     } else {
